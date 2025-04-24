@@ -1,6 +1,6 @@
 
 from flask import Flask, render_template, request, jsonify
-from PREDICTION MODEL RNI import predict_yield
+from model_rni import predict_yield
 
 app = Flask(__name__)
 
